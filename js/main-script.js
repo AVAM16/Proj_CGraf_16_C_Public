@@ -484,9 +484,6 @@ function onKeyDown(e) {
             mobiusStrip.material = new THREE.MeshPhongMaterial({ side: THREE.DoubleSide, color: mobiusStripColor, flatShading: false});
             for (let i = 0; i < rings.length; i++){
                 rings[i].material = new THREE.MeshPhongMaterial({ side: THREE.DoubleSide, color: ringColors[i], flatShading: false});
-                tubes1[i].material = new THREE.MeshPhongMaterial({ side: THREE.DoubleSide, color: ringColors[i], flatShading: false});
-                tubes2[i].material = new THREE.MeshPhongMaterial({ side: THREE.DoubleSide, color: ringColors[i], flatShading: false});
-                rings2[i].material = new THREE.MeshPhongMaterial({ side: THREE.DoubleSide, color: ringColors[i], flatShading: false});
             }
             for (let j=0; j<ringObjects.length; j++){
                 ringObjects[j].material = new THREE.MeshPhongMaterial({ side: THREE.DoubleSide, color: ringObjectsColor})
